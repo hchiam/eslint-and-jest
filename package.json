@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "eslint index.js; jest",
     "lint": "eslint index.js"
   },
   "author": "",
