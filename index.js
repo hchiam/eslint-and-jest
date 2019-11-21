@@ -1,6 +1,6 @@
 /* eslint-disable require-jsdoc */
 
-showMessage();
+// showMessage();
 
 function showMessage() {
   const message = 'logging logging log';
