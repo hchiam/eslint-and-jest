@@ -1,5 +1,7 @@
 /* eslint-disable require-jsdoc */
 
+showMessage();
+
 function showMessage() {
   const message = 'logging logging log';
 
@@ -8,4 +10,11 @@ function showMessage() {
   }
 }
 
-showMessage();
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = {
+  add,
+  showMessage,
+};
