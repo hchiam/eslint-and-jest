@@ -1,11 +1,12 @@
 /* eslint-disable require-jsdoc */
 
-const index = require('./index.js');
-// const {add} = require('./index.js');
+const {solutionWrapper} = require('./index.js');
 
-describe('index', () => {
-  it('can add properly', () => {
-    expect(index.add(1, 2)).toBe(3);
-    // expect(add(1, 2)).toBe(3);
-  });
+describe('the solution', () => {
+  it('works', () => expect(solutionWrapper(1)).toStrictEqual(1));
 });
+
+// function TreeNode(val) {
+//   this.val = val;
+//   this.left = this.right = null;
+// }

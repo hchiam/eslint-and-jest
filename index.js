@@ -1,20 +1,18 @@
 /* eslint-disable require-jsdoc */
 
-// showMessage();
+const solution = (params) => {
+  return 1;
+};
 
-function showMessage() {
-  const message = 'logging logging log';
-
-  for (let i = 0; i < 5; i++) {
-    console.log(message) // this will trigger underlining (and shows up if you run: npm run lint)
-  }
+function solutionWrapper(params) {
+  return solution(params);
 }
 
-function add(a, b) {
-  return a + b;
-}
+// function TreeNode(val) {
+//   this.val = val;
+//   this.left = this.right = null;
+// }
 
 module.exports = {
-  add,
-  showMessage,
+  solutionWrapper,
 };
