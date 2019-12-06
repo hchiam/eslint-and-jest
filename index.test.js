@@ -6,6 +6,11 @@ describe('the solution', () => {
   it('works', () => expect(solutionWrapper(1)).toStrictEqual(1));
 });
 
+// function ListNode(val) {
+//   this.val = val;
+//   this.next = null;
+// }
+
 // function TreeNode(val) {
 //   this.val = val;
 //   this.left = this.right = null;
