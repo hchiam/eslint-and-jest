@@ -19,7 +19,7 @@ or for continuous watch and live re-run of [linting](https://github.com/hchiam/e
 nodemon -w index.js -x 'npm run fix; npm run lint; npm run test; node index.js;'
 ```
 
-You can also auto-fix as many linter errors as possible with `eslint --fix index.js`, or just:
+You can manually auto-fix as many linter errors as possible with `eslint --fix index.js`, or just:
 
 ```bash
 npm run fix
