@@ -16,7 +16,7 @@ npm run test
 or for continuous watch and live re-run of [linting](https://github.com/hchiam/eslint-and-jest/blob/master/package.json#L8) and [unit tests](https://github.com/hchiam/eslint-and-jest/blob/master/package.json#L7):
 
 ```bash
-nodemon -w index.js -x 'npm run lint; npm run test; node index.js;'
+nodemon -w index.js -x 'npm run fix; npm run lint; npm run test; node index.js;'
 ```
 
 You can also auto-fix as many linter errors as possible with `eslint --fix index.js`, or just:
