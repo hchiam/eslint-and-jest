@@ -1,11 +1,11 @@
 /* eslint-disable require-jsdoc */
 
-const solution = (params) => {
-  return 1;
+const solution = (a, b) => {
+  return a + b;
 };
 
-function solutionWrapper(params) {
-  return solution(params);
+function solutionWrapper(...parameters) {
+  return solution(...parameters);
 }
 
 // function ListNode(val) {

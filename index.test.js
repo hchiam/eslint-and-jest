@@ -4,8 +4,8 @@ const {solutionWrapper} = require('./index.js');
 
 describe('the solution', () => {
   it('works', () => {
-    expect(solutionWrapper(1))
-        .toStrictEqual(1);
+    expect(solutionWrapper(1, 2))
+        .toStrictEqual(3);
   });
 });
 
