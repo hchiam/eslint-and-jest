@@ -3,7 +3,10 @@
 const {solutionWrapper} = require('./index.js');
 
 describe('the solution', () => {
-  it('works', () => expect(solutionWrapper(1)).toStrictEqual(1));
+  it('works', () => {
+    expect(solutionWrapper(1))
+        .toStrictEqual(1);
+  });
 });
 
 // function ListNode(val) {
