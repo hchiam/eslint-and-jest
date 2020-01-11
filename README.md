@@ -25,6 +25,20 @@ You can manually auto-fix as many linter errors as possible with `eslint --fix i
 npm run fix
 ```
 
+## `yarn` version of the commands
+
+`yarn` (or `yarn install`) and then:
+
+```bash
+yarn lint
+yarn fix
+yarn test
+```
+
+```bash
+nodemon -w index.js -x 'yarn fix; yarn lint; yarn test; node index.js;'
+```
+
 ## Reminder of installations
 
 ```bash
