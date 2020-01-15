@@ -1,6 +1,6 @@
 // npm install -D google-closure-library
 
-require("google-closure-library");
+require('google-closure-library');
 
 goog.require('goog.structs.Heap');
 
