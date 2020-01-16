@@ -1,6 +1,6 @@
 /* eslint-disable require-jsdoc */
 
-const solution = (a, b) => {
+const         solution =(a, b) => {
   return a + b;
 };
 
