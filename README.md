@@ -39,6 +39,12 @@ yarn test
 nodemon -w index.js -x 'yarn fix; yarn lint; yarn test; node index.js;'
 ```
 
+Or just:
+
+```bash
+yarn auto-test
+```
+
 ## Reminder of installations
 
 ```bash

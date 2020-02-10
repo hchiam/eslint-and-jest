@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint *.js",
-    "fix": "eslint --fix *.js"
+    "fix": "eslint --fix *.js",
+    "auto-test": "nodemon -x 'yarn fix; yarn lint; yarn test; node index.js;' --ignore node_modules"
   },
   "author": "",
   "license": "ISC",
