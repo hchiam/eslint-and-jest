@@ -11,7 +11,7 @@ npm install
 Then:
 
 ```bash
-npm run lint
+npm run lint # this runs: eslint *.js
 npm run test
 ```
 
