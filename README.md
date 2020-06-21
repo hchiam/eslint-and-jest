@@ -1,5 +1,7 @@
 # [`eslint`](https://github.com/hchiam/learning-eslint-google) and [`jest`](https://github.com/hchiam/learning-jest)
 
+Just one of the things I'm learning. https://github.com/hchiam/learning
+
 Once:
 
 ```bash
